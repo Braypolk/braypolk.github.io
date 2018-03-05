@@ -1,0 +1,554 @@
+/*colors        blue: 5693ca     tan: e6ded1 */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+.head{
+    position: absolute;
+    z-index: 1;
+    width: 70%;
+    height: 100vh;
+    margin: 0 15%;
+    text-align: center;
+        z-index: 1;
+}
+
+.head .logo{
+    width: 75%;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    margin-left: -37.5%;
+    z-index: 1;
+}
+
+.head h1{
+    position: absolute;
+    top: 5%;
+    width: 130%;
+    text-align: center;
+    color: #e6ded1;
+    font-weight: 100;
+    font-size: 330%;
+    margin-left: -15%;
+}
+
+.clearfix{
+    width: 100%;
+    height: 40px;
+}
+
+#banner{
+    height: 100%;
+    width: 100%;
+}
+
+.about{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    height: 60%;
+    position: relative;
+    top: 0;
+    z-index: 99;
+    background: #e6ded1;
+}
+
+.about h1, .about p{
+    width: 45%;
+    padding-left: 30px;
+}
+
+.about h1{
+    padding-top: 15px;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    color: #5693ca;
+    margin: 0;
+}
+
+.about p{
+    padding-top: 40px;
+    height: 100%;
+    font-size: 140%;
+    font-family: 'lato', sans-serif;
+    text-indent: 40px;
+}
+
+.about img{
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.container{
+    padding: 0;
+    background: #e6ded1;
+    width: 100%;
+    height: 90%;
+	position: relative;
+    top: 0;
+    z-index: 99;
+    background-image: url(../img/astro/right-rocks.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+.port-select{
+    margin-top: 50px;
+    float: right;
+    width: 400px;    
+}
+
+.port-select ul{
+    list-style: none;
+}
+
+.port-select li{
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 130%;
+    text-transform: uppercase;
+    background: rgba(86, 147, 202, .5);
+    color: white;
+    -webkit-transition: .5s;
+            transition: .5s;
+}
+
+.port-select li:hover{
+    background: rgba(86, 147, 202, 1);
+    text-decoration: none;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.port-select a:hover{
+    text-decoration: none;
+}
+
+.back-arrow{
+}
+
+.back-arrow:hover{
+    opacity: .7;
+    -webkit-transition: 333ms;
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.child{
+    margin: 0;
+    align-self: center;
+}
+
+.portHead{
+    font-size: 3.6em;
+}
+.row{
+    height: auto;
+    margin: 0 auto;
+    max-width: 1150px;
+    align-self: center;
+    align-content: center;
+}
+
+.col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, col-xs-12{
+    height: 400px;
+}
+
+.vert{
+    height: 500px;
+}
+
+.horiz{
+    height: 300%;
+}
+
+.col-xs-12{
+    padding-bottom: 10px;
+}
+
+.row img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100vh;
+}
+.item:nth-child(1) {
+    background: url(../img/astro/pano2.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+.item:nth-child(2) {
+  background: url(../img/landscape/IMG_6459.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+.item:nth-child(3) {
+  background: url(../img/landscape/IMG_7183.png) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.dim{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.3);
+}
+
+/*nav start*/
+
+
+
+#nav_bar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    background-color: #5693ca;
+    height: 100%;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    height: 40px;
+    padding: 0 75px;
+    padding-top: 7px;
+    font-family: 'lato', sans-serif;
+    font-size: 130%;
+}
+
+nav li a{
+    color: #e6ded1;
+}
+
+/*nav end*/
+
+.around{
+    position: relative;
+    background: #5693ca;
+    width: 95%;
+    margin-left: 2.5%;
+    z-index: 50;
+}
+
+#cme{
+    margin-top: 15px;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    font-weight: 300;
+    color: #e6ded1;
+}
+
+table {
+    margin: 0 auto;
+    width: 50%;
+    font-family: 'lato', sans-serif;
+    font-size: 120%;
+    
+}
+
+tr {
+    color: #e6ded1;
+}
+
+td {
+    width: 30%;
+    padding-left: 5%;
+    font-weight: 300;
+}
+
+th {
+    padding-left: 5%;
+    padding-top: 15px;
+    font-size: 150%;
+    font-weight: 400;
+}
+
+.table-pad {
+    padding-bottom: 20px;
+}
+
+.disc {
+    width: 50%;
+    margin: 0 auto;
+    padding-left: 3%;
+    font-family: 'lato', sans-serif;
+    color: #e6ded1;
+}
+
+.disc ul {
+    padding-left: 0;
+}
+
+
+
+/*            form start         */
+
+#hire{
+    text-align: center;
+    position: relative;
+    max-width: 1120px;
+    margin: 0 auto;
+    height: 100%;
+    background: #e6ded1;
+    z-index: 50;
+    font-size: 66%;
+    padding: 20px 0 110px;
+    
+}
+
+body section h1 {
+  margin-bottom: 40px;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+form {
+  width: 58.33333%;
+  margin: 0 auto;
+}
+form .field {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+form .field label {
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #5693ca;
+  width: 100%;
+  padding: 18px 0;
+      padding: 18px 0;
+  font-size: 1.5em;
+  letter-spacing: 0.075em;
+    font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
+.msg-box label{
+    height: 100%;
+}
+
+
+form .field label + span {
+    color: red;
+    font-size: 200%;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+}
+form .field input[type="text"],
+form .field textarea {
+    border: none;
+    background: #E8E9EA;
+    width: 100%;
+    margin: 0;
+    padding: 18px 0;
+    padding-left: 19.5%;
+    color: #313A3D;
+    font-size: 1.4em;
+    letter-spacing: 0.05em;
+    
+}
+
+form .field input[type="text"]#msg,
+form .field textarea#msg {
+    resize: none;
+    -webkit-transition: all 333ms ease-in-out;
+    -moz-transition: all 333ms ease-in-out;
+    -o-transition: all 333ms ease-in-out;
+    -ms-transition: all 333ms ease-in-out;
+    transition: all 333ms ease-in-out;
+}
+
+form .field input[type="text"]:focus, form .field input[type="text"].focused,
+form .field textarea:focus,
+form .field textarea.focused {
+  outline: none;
+}
+form .field input[type="text"]:focus#msg, form .field input[type="text"].focused#msg,
+form .field textarea:focus#msg,
+form .field textarea.focused#msg {
+  padding-bottom: 150px;
+}
+form .field input[type="text"]:focus + label, form .field input[type="text"].focused + label,
+form .field textarea:focus + label,
+form .field textarea.focused + label {
+  width: 18%;
+  background: #eda32d;
+  color: #313A3D;
+}
+form .field input[type="text"].focused + label,
+form .field textarea.focused + label {
+  color: #eda32d;
+}
+form .field:hover label {
+  width: 18%;
+  background: #5693ca;
+  color: #e6ded1;
+}
+form input[type="submit"] {
+  background: #eda32d;
+  color: #e6ded1;
+  -webkit-appearance: none;
+  border: none;
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.7em;
+  letter-spacing: 0.1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 333ms ease-in-out;
+  -moz-transition: all 333ms ease-in-out;
+  -o-transition: all 333ms ease-in-out;
+  -ms-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+form input[type="submit"]:hover {
+  background: #5693ca;
+  color: #eda32d;
+}
+form input[type="submit"]:focus {
+  outline: none;
+  background: #eda32d;
+}
+
+/*            form end         */
+
+
+
+/*media query start*/
+
+@media only screen and (max-width: 1024px) {
+    
+    .about img{
+        height: 85%;
+        display: block;
+    }
+    
+    .head h1{
+        font-size: 300%;
+    }
+    
+    .head .logo{
+        top: 23%;
+    }
+    
+    .head .logo img{
+        width: 60%;
+    }
+    
+    .child img{
+        height: 20vh;
+    }
+    .portHead{
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about{
+        position:
+        display: block;
+        height: auto;
+    }
+    
+    .about img{
+        position: relative;
+        width: 50vh;
+    }
+    
+    .about p{
+        font-size: 110%;
+        text-indent: 20px;
+        width: 100%;
+    }
+    
+    .head .logo{
+        top: 30%;
+    }
+    
+    nav ul li{
+        padding: 0 35px;
+    }
+    
+    #hire{
+        height: 100%;
+    }
+    
+    .child img{
+        height: 10vh;
+    }
+    .portHead{
+        font-size: 2.3em;
+    }
+    
+    form .field label {
+        font-size: 1.3em;
+  letter-spacing: 0.075em;
+    font-weight: 300;
+    }
+    
+    .last{
+        padding-bottom: 30px;
+    }
+}
+
+/*media query end*/
