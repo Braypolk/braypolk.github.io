@@ -1,0 +1,76 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.test,
+.test1 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    height: 100px;
+    width: 100px;
+    background: red;
+
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+}
+
+.dark{
+    position: absolute;
+    height: 80vh;
+    width: 100%;
+    background: black;
+    opacity: .2;
+}
+
+.half{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80vh 100vh;
+}
+
+
+.left{
+    background: url(three-act.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right{
+    background-color: red;
+}
+
+.lower{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: linear-gradient(grey, white);
+}
+
+.three, .fry, .other{
+    color: white;
+    font-size: 1.4em;
+    text-decoration: none;
+    position: absolute;
+    top: 45%; 
+    margin-left: 10%;
+}
+
+.three{
+    
+}
+
+.fry{
+    
+}
+
+.other{
+    top: 90%;
+    left: 35%;   
+}
+
+.asdf{
+    
+}
