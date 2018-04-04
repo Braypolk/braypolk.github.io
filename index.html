@@ -11,13 +11,15 @@
 <body>
   <div class="half">
       <div class="left" id="text">      
-            <h1 class="top"><a href="three-act.html" class="three" >Structures</a></h1>
+            <h1 class="top"><a href="three-act.html" class="three a" >Structures</a></h1>
       </div>
       <div class="right" id="text1">             
-            <h1 class="top"><a href="frytag.html" class="fry">Genres</a></h1>
+            <h1 class="top"><a href="frytag.html" class="fry a">Genres</a></h1>
       </div>
       <div class="lower">
-            <h1><a href="#bottom" id="top" class="other">Technical Aspects</a></h1>
+            <div class="fifty" id="text2">
+                <h1 class="tech"><a href="#bottom" id="top" class="other">Technical</a></h1>
+            </div>
             <a id="bottom" href="#top"></a>
             <div class="gear">
                 <div class="level">
@@ -101,8 +103,8 @@ $('a[href^="#"]').on('click', function(event) {
 <script src="js/main.js"></script>
 <script src="js/jquery.fittext.js"></script>
 <script>
-    jQuery("#text1").fitText(); 
     jQuery("#text").fitText();    
-       
+    jQuery("#text1").fitText(); 
+    jQuery("#text2").fitText();   
 </script>
 </html>

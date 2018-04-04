@@ -21,7 +21,7 @@ body, html{
 /*
 .dark{
     position: absolute;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
     background: black;
     opacity: .2;
@@ -31,15 +31,31 @@ body, html{
 .half{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 80vh 100vh;
+    grid-template-rows: 70vh 100vh;
+    
 }
 
 .top{
     margin: 0;
     padding: 0;
-    line-height: 80vh;
+    line-height: 70vh;
     width: 100%;
     text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.top:hover{
+    transform: scale(1.1);
+}
+
+.tech{
+    margin: 0;
+    padding: 0;
+    transition: all .2s ease-in-out;
+}
+
+.tech:hover{
+    transform: scale(1.1);
 }
 
 .left{
@@ -55,29 +71,21 @@ body, html{
     background-color: lightcoral;
 }
 
-.lower{
+.lower{    
     grid-column-start: 1;
     grid-column-end: 3;
     background: linear-gradient(grey, white);
 }
 
-.three, .fry{
+.three, .fry, .other{
     color: white;    
     text-decoration: none;
     
 }
 
-.other{
-    color: white;
-    font-size: 1.5em;
-    text-decoration: none;
-    position: absolute;
-    top: 45%; 
-    margin-left: 10%;
-    top: 90%;
-    left: 35%;   
-}
-
-.asdf{
-    
+.fifty{
+    width: 50%;
+    height: 30vh;
+    text-align: center;
+    margin: 0 auto;
 }
