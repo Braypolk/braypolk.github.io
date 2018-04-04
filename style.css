@@ -18,10 +18,21 @@ body, html{
     margin: 0;
 }
 
+.basics{
+    position: absolute;
+    font-size: 3em;
+    color: white;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    
+}
+
 /*
 .dark{
     position: absolute;
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     background: black;
     opacity: .2;
@@ -31,15 +42,16 @@ body, html{
 .half{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 70vh 100vh;
+    grid-template-rows: 50vh 50vh;
     
 }
 
 .top{
-    margin: 0;
+   
     padding: 0;
-    line-height: 70vh;
-    width: 100%;
+    line-height: 45vh;
+    width: 90%;
+     margin: 0 auto;
     text-align: center;
     transition: all .2s ease-in-out;
 }
@@ -50,7 +62,7 @@ body, html{
 
 .tech{
     margin: 0;
-    padding: 0;
+    padding-top: 5vh;
     transition: all .2s ease-in-out;
 }
 
@@ -72,9 +84,7 @@ body, html{
 }
 
 .lower{    
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background: linear-gradient(grey, white);
+    background: lightgreen;
 }
 
 .three, .fry, .other{
@@ -88,4 +98,8 @@ body, html{
     height: 30vh;
     text-align: center;
     margin: 0 auto;
+}
+
+.lr{
+    background-color: darksalmon
 }
