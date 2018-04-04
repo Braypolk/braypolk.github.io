@@ -18,6 +18,7 @@ body, html{
     margin: 0;
 }
 
+/*
 .dark{
     position: absolute;
     height: 80vh;
@@ -25,6 +26,7 @@ body, html{
     background: black;
     opacity: .2;
 }
+*/
 
 .half{
     display: grid;
@@ -32,15 +34,25 @@ body, html{
     grid-template-rows: 80vh 100vh;
 }
 
-
-.left{
-    background: url(three-act.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+.top{
+    margin: 0;
+    padding: 0;
+    line-height: 80vh;
+    width: 100%;
+    text-align: center;
 }
 
+.left{
+    background: lightblue;
+/*
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+}
+
+
 .right{
-    background-color: red;
+    background-color: lightcoral;
 }
 
 .lower{
@@ -49,24 +61,19 @@ body, html{
     background: linear-gradient(grey, white);
 }
 
-.three, .fry, .other{
-    color: white;
-    font-size: 1.4em;
+.three, .fry{
+    color: white;    
     text-decoration: none;
-    position: absolute;
-    top: 45%; 
-    margin-left: 10%;
-}
-
-.three{
-    
-}
-
-.fry{
     
 }
 
 .other{
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    position: absolute;
+    top: 45%; 
+    margin-left: 10%;
     top: 90%;
     left: 35%;   
 }

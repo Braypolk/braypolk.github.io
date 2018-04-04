@@ -10,12 +10,11 @@
 
 <body>
   <div class="half">
-      <div class="left">
-             <div class="dark"></div>          
-              <h1><a href="three-act.html" class="three">Structures</a></h1>
+      <div class="left" id="text">      
+            <h1 class="top"><a href="three-act.html" class="three" >Structures</a></h1>
       </div>
-      <div class="right">             
-              <h1><a href="frytag.html" class="fry">Genres</a></h1>
+      <div class="right" id="text1">             
+            <h1 class="top"><a href="frytag.html" class="fry">Genres</a></h1>
       </div>
       <div class="lower">
             <h1><a href="#bottom" id="top" class="other">Technical Aspects</a></h1>
@@ -82,6 +81,7 @@
                     </div>
                 </div>
             </div>
+            <p class="frytags">test</p>
       </div>
   </div>    
 </body>
@@ -97,6 +97,12 @@ $('a[href^="#"]').on('click', function(event) {
     }
 });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
-<script src="main.js"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>-->
+<script src="js/main.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script>
+    jQuery("#text1").fitText(); 
+    jQuery("#text").fitText();    
+       
+</script>
 </html>
