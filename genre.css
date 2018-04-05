@@ -1,0 +1,35 @@
+:root{
+    --head-height: 30vh;
+}
+
+body, #title{
+        margin: 0;
+    padding: 0;
+}
+
+.header{
+   z-index: 99;
+}
+
+.darken{
+    position: absolute;
+    width: 100%;
+    height: var(--head-height);
+    background: linear-gradient(black, white);
+    opacity: .3;
+    z-index: -1;
+}
+.himage{
+    position: absolute;
+    width: 100%;
+    height: var(--head-height);
+    background: url(https://previews.123rf.com/images/darijashka/darijashka1610/darijashka161000014/66906344-vector-set-of-movie-genres-line-icons-isolated-on-background-different-film-genre-elements-perfect-f.jpg);
+    background-size: cover;
+    opacity: .6;
+    z-index: -2;
+}
+
+#title{
+    line-height: var(--head-height);
+    text-align: center;
+}

@@ -4,12 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="genre.css">
 </head>
 
 <body>
     <div class="genres">
-       <h1>Movie Genres</h1>
+     <div class="darken"></div>
+      <div class="himage"></div>
+       <div class="header" id="text">
+           <h1 id="title">Genres</h1>
+       </div>
+       
         <div class="action">
             <h2>Action</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi officia doloremque voluptate, quod beatae repellendus distinctio saepe commodi porro repellat voluptas maiores praesentium cum quam fuga velit omnis molestias alias!</p>
@@ -54,4 +59,9 @@
        </div>
     </div>
 </body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script>
+    jQuery("#text").fitText();
+</script>
 </html>
