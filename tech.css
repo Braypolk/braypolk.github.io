@@ -1,0 +1,27 @@
+:root{
+    --head-height: 30vh;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: var(--head-height);
+    background: url(https://images.unsplash.com/photo-1516865622081-e98d705bb920?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8e453c06501d9fb07a1d9e4d598410be&auto=format&fit=crop&w=2000&q=60);
+    background-size: cover;
+    background-color:  #b2b4b5;;
+    background-blend-mode: multiply;
+    
+    
+}
+
+.head{
+    margin: 0;
+    color: white;
+    line-height: var(--head-height);
+    text-align: center;
+    
+}
