@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
 .container > div {
     display: flex;
     justify-content: center;

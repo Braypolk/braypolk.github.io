@@ -1,3 +1,8 @@
+:root{
+    --head-height: 30vh;
+    --head: white;
+}
+
 *{
     font-family: 'Lato', sans-serif;
 }
@@ -11,6 +16,19 @@
     width: 100px;
     background: red;
 
+}
+.home{
+    text-decoration: none;
+    color: var(--head);
+    position: absolute;
+    right: 2vh;
+    font-size: 2em;
+    transition: all .2s ease-in-out;
+}
+
+.home:hover{
+    color: red;
+    transform: scale(1.1);
 }
 
 body, html{
@@ -86,4 +104,23 @@ body, html{
 
 .lr{
     background-color: darksalmon
+}
+
+header{
+    width: 100%;
+    height: var(--head-height);
+    background: url(https://images.unsplash.com/photo-1516865622081-e98d705bb920?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8e453c06501d9fb07a1d9e4d598410be&auto=format&fit=crop&w=2000&q=60);
+    background-size: cover;
+    background-color:  #b2b4b5;;
+    background-blend-mode: multiply;
+    
+    
+}
+
+.head{
+    margin: 0;
+    color: var(--head);
+    line-height: var(--head-height);
+    text-align: center;
+    
 }
