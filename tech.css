@@ -11,6 +11,14 @@ body{
     padding: 0;
 }
 
+h4{
+    font-size: 1.5em;
+}
+
+h1{
+    font-size: 3em;
+}
+
 header{
     width: 100%;
     height: var(--head-height);
@@ -42,4 +50,23 @@ header{
 .home:hover{
     color: red;
     transform: scale(1.1);
+}
+
+.sub{
+    margin: 0 5vw;
+    display: inline-block
+}
+
+.op{
+    width: 40vw;
+}
+
+h2{
+    text-align: center;    
+    margin: 10px;
+    font-size: 2.3em;
+}
+
+p{
+   width: 40vh;
 }
