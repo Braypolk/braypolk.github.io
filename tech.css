@@ -56,17 +56,31 @@ header{
     margin: 0 5vw;
     display: inline-block
 }
-
-.op{
-    width: 40vw;
+h3{
+    font-size: 2em;
+    vertical-align: top;
+    margin: 0 auto;
 }
 
 h2{
+    padding-bottom: 20px;
+    vertical-align: top;
     text-align: center;    
     margin: 10px;
     font-size: 2.3em;
+    color: #57835c
+        
 }
 
 p{
-   width: 40vh;
+    vertical-align: top;
+   padding: 20px 0;
+    line-height: 1.5em;
+    font-size: 2em;
+}
+    
+}
+
+.soft{
+    margin-left: 5%;
 }
